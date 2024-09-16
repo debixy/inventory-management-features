@@ -1,0 +1,12 @@
+/* Dashboard page specific styles */
+.dashboard {
+    .stats {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .recent-activities {
+        margin-top: 2rem;
+    }
+}

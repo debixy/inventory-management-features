@@ -1,0 +1,23 @@
+/* Card styles for dashboard and inventory */
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+
+    .card-header {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .card-footer {
+        font-size: 0.875rem;
+        color: $secondary-color;
+    }
+}

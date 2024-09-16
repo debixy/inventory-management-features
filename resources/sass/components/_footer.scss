@@ -1,0 +1,11 @@
+/* Footer styles */
+.footer {
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+    .text-muted {
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
