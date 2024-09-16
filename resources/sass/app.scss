@@ -1,0 +1,22 @@
+/* Main SCSS file to import all partials */
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/card';
+@import 'components/modal';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/dashboard';
+@import 'pages/inventory';
+@import 'pages/settings';
+
+@import 'utilities/helpers';
+@import 'utilities/responsive';
+@import 'utilities/animations';
